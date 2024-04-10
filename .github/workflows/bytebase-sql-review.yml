@@ -11,7 +11,7 @@ jobs:
   bytebase-sql-review:
     runs-on: ubuntu-latest
     env:
-      BYTEBASE_URL: "https://3b40-194-114-138-169.ngrok-free.app"
+      BYTEBASE_URL: "https://demo.bytebase.com"
       BYTEBASE_SERVICE_ACCOUNT: "ci@service.bytebase.com"
       DATABASE: "instances/prod-sample-instance/databases/hr_prod_vcs"
     name: SQL Review
